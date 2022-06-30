@@ -45,6 +45,6 @@ Library
 
   include-dirs:
   c-sources:
-  extra-libraries: lmdb
+  pkgconfig-depends: lmdb
 
   ghc-options: -Wall -fprof-auto
